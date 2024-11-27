@@ -294,3 +294,17 @@ CreateThread(function()
     end
 
 end)
+
+
+local ox = exports.ox_inventory
+
+CreateThread(function()
+
+	ox:displayMetadata({
+        [1]     = { firstname     = 'First Name'},
+        [2]     = { lastname      = 'Last Name'},
+        [3]     = { citizenid     = 'Citizen ID'},
+        [4]     = { rentalmodel   = 'Rental Vehicle'},
+        [5]     = { rentalplate   = 'Rental Plate'},
+	})
+end)

@@ -16,6 +16,14 @@ return {
             pedHash     = `a_m_y_business_03`,
             spawnPoint  = vector4(-906.62, -2333.03, 6.29, 240.02),
         },
+
+        {
+            label       = 'Prison\'s Rent-A-Car',
+            rentalType  = 'car',
+            coords      = vector4(1837.53, 2542.39, 44.88, 272.96),
+            pedHash     = `a_m_y_business_03`,
+            spawnPoint  = vector4(1852.74, 2541.82, 45.67, 271.32),
+        },
         -- Fantastic Plaza
         {
             label       = 'Bike Rentals',
@@ -176,6 +184,16 @@ return {
             bikeHash     = `bmx`,
             spawnPoint  = vector4(-419.43, 1225.35, 325.76, 339.56),
         },
+
+        -- City hall
+        {
+            label       = 'Bike Rentals',
+            rentalType  = 'bike',
+            coords      = vector4(-522.13, -262.11, 35.49, 200.59),
+            bikeHash     = `bmx`,
+            spawnPoint  = vector4(-524.55, -269.18, 35.28, 32.57),
+        },
+
 
     },
 
